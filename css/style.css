@@ -1,0 +1,496 @@
+body{
+    font: 15px/1.5 Century Gothic;
+    padding: 0;
+    margin:0;
+    height:100vh;
+    width: 100%;
+    background-position: center;
+    background: cover;
+    box-sizing: border-box;
+    position: relative;
+}
+
+/*Global*/
+
+
+.container-front{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 230px;
+    padding-right: 180px;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+.container{
+    width:75%;
+    margin:auto;
+    overflow: hidden; 
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    color:#111111d3;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0;
+}
+
+/*Header*/
+
+header {
+    font: 14px/1.5 Century Gothic;
+    background-color: #5d2904 ;
+    padding-top:20px;
+    min-height: 70pxx;
+}
+
+header h1{
+    font-family: Century Gothic;
+}
+#branding img{
+    padding-right: 10px;
+    margin:auto;
+    float: left;
+    height:40px;
+    width:35px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+    padding-right: 40px;
+}
+
+.current {
+    color:#ffffff;
+    font-style: bolder;
+}
+
+a:hover{
+    color: #ffffff ;
+    font-weight: bolder;
+}
+
+header a{
+    font-size: medium;
+    color: #d4ba66 ;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header li{
+    color: #ffffff;
+    font-size:10px;
+    margin: auto;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    margin: auto;
+}
+
+header #branding h1{
+    color: #ffffff;
+    margin: 0;
+
+}   
+
+/* Category */
+header .current{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#MenAndWomen {
+    margin: 37px;
+}
+
+#MenAndWomen .containerMaW{
+    padding-left: 300px;
+}
+
+#MenAndWomen .containerMaW .rectangle{  
+    border: 4px solid #b7751f;
+    padding-right: 120px;
+    margin: 20px;
+    width: 380px;
+    height: 200px;
+    float: left;
+}
+
+.rectangle img{
+    width: 50%;
+    height: auto;
+    text-align: right;
+}
+#MenAndWomen a{
+    text-decoration: none;
+    color:#000000;
+    font-size: 25px;
+    font-weight: bolder;
+}
+#MenAndWomen .containerMaW .rectangle .womenRectangle {
+    background-image: url(../image/women.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: default;
+    float: left;
+    padding: 62px 196px;
+    color:#b7751f;
+}
+
+#MenAndWomen .containerMaW .rectangle .menRectangle{
+    background-image: url(../image/men.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 16%;
+    float: left;
+    padding: 62px 216px;
+    color:#b7751f;
+}
+
+.rectangleType {
+    font-style: oblique;
+    text-align: right;
+}
+
+/*Category Name yung mga Top, Bottom*/
+#categoryName .container h3 {
+    text-align: center ;
+    font-size: 40px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Boxes */
+#boxes {
+    padding-left: 120px;
+}
+#boxes .box{
+    margin: 37px;
+    border: 4px solid #b7751f ;
+    float: left;
+    width: 200px;
+}
+/*Eeto yung hover effects para sa mga products*/
+.box img{
+    width: 100%;
+    height: auto;  
+}
+.box img:hover{
+    width: 204px;
+    transition: 1s;
+}
+
+.box .productname{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.box h5{
+    line-height: 0.3;
+}
+
+.box a{
+    color:#5d2904;
+}
+
+.box .productname img{
+    width: 30px;
+    height: 40px;
+}
+/* Newsletter*/
+#newsletter{
+    background-color: #5d2904 ;
+    color:#ffffff;
+}
+
+#newsletter .container .explore{
+    text-align: center;
+    float: left;
+    padding-left: 90px;
+    color:antiquewhite;
+}
+
+#newsletter .container .subscribe{
+    text-align: left;
+    color:antiquewhite;
+}
+
+#newsletter .container .subscribe h3{
+    text-align: center;
+    padding-right: 100px;
+}
+
+#newsletter .container .socials{
+    text-align: center;
+    padding-right: 120px;
+    float: right;
+    color:antiquewhite;
+}
+
+#newsletter input[type="email"]{
+    text-align: center;
+    height:20px;
+    width:200px;
+}
+
+#newsletter .container .subscribe form{
+    text-align: center;
+}
+#newsletter h5{
+    color:#ffffff
+}
+
+#newsletter a{
+    color: #ffffff;
+    text-decoration: none;
+} 
+
+#newletter a:havor{
+    color: #b7751f ;
+    font-weight: bolder;
+}
+
+#newsletter button{
+    display: inline-block;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 4px double #5d2904;
+    color: #5d2904;
+    text-align: center;
+    font-size: 15px;
+    padding: 0px;
+    width: 120px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+footer {
+    font-size: 15px;
+    padding: 10px;
+    color: #ffffff;
+    background-color: #5d2904;
+    text-align: center;
+}
+
+
+.containerNavbar-2{
+    width: 105%;
+    overflow: hidden;
+}
+
+#navbar-2 ul{
+    text-align: center;
+    background-color: #000000;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    float: center;
+    list-style: none;
+    margin: 0;
+}
+
+#navbar-2 ul li {
+    display:inline-block;
+    padding: 0px 100px 0 100px;
+}
+
+#navbar-2 a{
+    color: #ffffff;
+}
+
+.seeMore {
+    float:center;
+    text-align: center;
+}
+
+.seeMore a{
+    color: #5d2904 ;
+    text-decoration: none;
+}
+button {
+    display: inline-block;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 4px double #5d2904;
+    color: #5d2904;
+    float:none;
+    font-size: 15px;
+    padding: 0px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 50px;
+    overflow: hidden;
+}
+button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+button:hover {
+    background-color: #b7751f;
+}
+button:hover span {
+    padding-right: 25px;
+}
+button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+/*bawat click sa product eto yugn lalabas sa description*/
+.productDescription{
+    text-align: center;
+    padding-left: 600px;
+    overflow: hidden;
+}
+
+.productDescription .productImgBox{
+    width: 150px;
+
+}
+.productDescription .productImgBox img{
+    margin-top: 20px;
+    max-width: 200%;
+    text-align: center;
+}
+
+.productDescription .productImgBox{
+    float: center; 
+} 
+.productDescription .content{
+    padding-right: 600px; 
+}
+
+/*FAQ*/
+.FAQs{
+    font-family: sans-serif;
+    text-align:left;
+    padding-left: 200px;
+    margin-bottom: 20px;;
+}
+
+.FAQs details{
+    padding-bottom: 20px;
+}
+
+/*Cart*/
+.cart-container{
+    float: center;
+    width: 100%;
+}
+.cart-page{
+    margin-left: 28% ;
+}
+.table{
+	width: 100%;
+	border-collapse: border-box;
+	
+}
+.cart-info{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+th{
+	text-align: left;
+	padding: 5px;
+	color: #fff;
+	background:#111111d3;
+	font-weight: normal;
+}
+td{
+    width: 250px;
+	padding: 10px 5px;
+}
+td input{
+    text-align: center;
+	width:40px;
+	height: 30px;
+	padding: 5px;
+}
+td a{
+	color:#ff523b;
+	font-size:12px;
+}
+td img{
+	width: 80px;
+	height: 80px;
+	margin-right: 10px;
+}
+.total-price{
+	display: flex;
+	justify-content: flex end;
+}
+.total-price table{
+	border-top: 3px solid #ff523b;
+	width: 780px;
+	max-width: 780px;
+}
+td:last-child{
+	text-align: right;
+}
+th:last-child{
+	text-align: right;
+}
+
+/*Terms and AGreement*/
+
+#TandA {
+    font-family:sans-serif;
+    border-style: double;
+    margin: 20px 200px 20px 200px;
+}
+
+#TandA h1{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#TandA p{
+    text-indent: 60px;
+    margin: 0 40px 20px 40px;
+    text-align:justify;
+    font-size: 15px;
+}
+
+/*About O'Shop*/
+.about{
+    font-family: sans-serif;
+    border-style: double;
+    margin: 20px 200px 20px 200px;
+}
+
+.about h1{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.about p{
+    text-indent: 60px;
+    margin: 0 40px 0px 40px;
+    text-align:justify;
+    font-size: 15px;
+}
+
+.contact .contactContent{
+    text-align: left;
+    border-style: none;
+    margin: 0 20px 10px 40px;
+}
